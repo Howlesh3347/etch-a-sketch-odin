@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .containerCss {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            height: 600px;
+            flex-wrap: wrap;
+        }
+
+        .pixelCss {
+            box-sizing: border-box;
+            border: 1px solid red;
+        }
+
+        .bodyCss {
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+        }
+    </style>
+</head>
+<body id="body-container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+    
+    <button id="reset-btn" style="margin: 20px;">Reset</button>
+
+    <div id="sketch-container">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
