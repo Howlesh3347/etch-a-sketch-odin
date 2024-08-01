@@ -1,0 +1,21 @@
+
+.containerCss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.pixelCss {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.bodyCss {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
